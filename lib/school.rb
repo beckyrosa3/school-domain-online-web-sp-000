@@ -1,4 +1,3 @@
-#require pry
 class School
 attr_accessor :name, :roster
 
@@ -19,4 +18,3 @@ attr_accessor :name, :roster
       roster[grade]
   end
 end
-#binding.pry
