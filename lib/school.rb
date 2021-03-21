@@ -12,8 +12,11 @@ attr_accessor :name, :roster
         roster[grade] << name
       else
         roster[grade] = [name]
-
       end
     end
+
+    def grade(student_grade)
+      roster[grade]
+  end
 end
 #binding.pry
