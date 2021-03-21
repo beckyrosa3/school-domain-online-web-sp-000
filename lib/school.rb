@@ -17,4 +17,12 @@ attr_accessor :name, :roster
     def grade(grade)
       roster[grade]
   end
+
+    def sort
+      sorted = {}
+      roster.each do |grade, name|
+      sorted[grade]=mname
+    end
+    sorted
+  end
 end
